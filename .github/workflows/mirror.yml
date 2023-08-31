@@ -36,6 +36,8 @@ jobs:
             repo: docker.io
           - image: kindest/node
             repo: docker.io
+          - image: centrifugo/centrifugo
+            repo: docker.io
     permissions:
       packages: write
     steps:
