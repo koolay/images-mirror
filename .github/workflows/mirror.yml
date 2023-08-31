@@ -39,9 +39,9 @@ jobs:
           - image: centrifugo/centrifugo
             repo: docker.io
           - image: ingress-nginx/kube-webhook-certgen
-            repo: k8s.io
+            repo: registry.k8s.io
           - image: ingress-nginx/controller
-            repo: k8s.io
+            repo: registry.k8s.io
 
     permissions:
       packages: write
