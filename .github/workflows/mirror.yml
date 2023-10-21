@@ -44,6 +44,8 @@ jobs:
             repo: registry.k8s.io
           - image: tooljet/tooljet-ce
             repo: docker.io
+          - image: postgres
+            repo: docker.io
 
     permissions:
       packages: write
