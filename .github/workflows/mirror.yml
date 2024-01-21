@@ -46,6 +46,28 @@ jobs:
             repo: docker.io
           - image: postgres
             repo: docker.io
+          - image: postgres
+            repo: docker.io
+          - image: microservices-demo/adservice
+            repo: gcr.io
+          - image: microservices-demo/cartservice
+            repo: gcr.io
+          - image: microservices-demo/checkoutservice
+            repo: gcr.io
+          - image: microservices-demo/currencyservice
+            repo: gcr.io
+          - image: microservices-demo/frontend
+            repo: gcr.io
+          - image: microservices-demo/loadgenerator
+            repo: gcr.io
+          - image: microservices-demo/productcatalogservice
+            repo: gcr.io
+          - image: microservices-demo/recommendationservice
+            repo: gcr.io
+          - image: microservices-demo/shippingservice
+            repo: gcr.io
+          - image: microservices-demo/emailservice
+            repo: gcr.io
 
     permissions:
       packages: write
