@@ -68,6 +68,8 @@ jobs:
             repo: gcr.io
           - image: google-samples/microservices-demo/emailservice
             repo: gcr.io
+          - image: google-samples/microservices-demo/paymentservice
+            repo: gcr.io
 
     permissions:
       packages: write
