@@ -70,7 +70,7 @@ jobs:
             repo: gcr.io
           - image: google-samples/microservices-demo/paymentservice
             repo: gcr.io
-          - image: ghcr.io/koolay/images-mirror/google-samples/microservices-demo/redis
+          - image: google-samples/microservices-demo/redis
             repo: gcr.io
 
     permissions:
