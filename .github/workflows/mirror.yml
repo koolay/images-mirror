@@ -50,30 +50,7 @@ jobs:
             repo: docker.io
           - image: postgres
             repo: docker.io
-          - image: google-samples/microservices-demo/adservice
-            repo: gcr.io
-          - image: google-samples/microservices-demo/cartservice
-            repo: gcr.io
-          - image: google-samples/microservices-demo/checkoutservice
-            repo: gcr.io
-          - image: google-samples/microservices-demo/currencyservice
-            repo: gcr.io
-          - image: google-samples/microservices-demo/frontend
-            repo: gcr.io
-          - image: google-samples/microservices-demo/loadgenerator
-            repo: gcr.io
-          - image: google-samples/microservices-demo/productcatalogservice
-            repo: gcr.io
-          - image: google-samples/microservices-demo/recommendationservice
-            repo: gcr.io
-          - image: google-samples/microservices-demo/shippingservice
-            repo: gcr.io
-          - image: google-samples/microservices-demo/emailservice
-            repo: gcr.io
-          - image: google-samples/microservices-demo/paymentservice
-            repo: gcr.io
-          - image: google-samples/microservices-demo/redis
-            repo: gcr.io
+
 
     permissions:
       packages: write
