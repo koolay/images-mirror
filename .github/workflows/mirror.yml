@@ -42,6 +42,8 @@ jobs:
             repo: registry.k8s.io
           - image: ingress-nginx/controller
             repo: registry.k8s.io
+          - image: emberstack/kubernetes-reflector
+            repo: docker.io
           - image: tooljet/tooljet-ce
             repo: docker.io
           - image: postgres
