@@ -54,7 +54,13 @@ jobs:
             repo: docker.io
           - image: minio/minio
             repo: docker.io
-
+          - image: bitnami/redis
+            repo: docker.io
+          - image: bitnami/redis-exporter
+            repo: docker.io
+          - image: bitnami/minio
+            repo: docker.io
+            
     permissions:
       packages: write
     steps:
