@@ -50,7 +50,10 @@ jobs:
             repo: docker.io
           - image: postgres
             repo: docker.io
-
+          - image: redis
+            repo: docker.io
+          - image: minio/minio
+            repo: docker.io
 
     permissions:
       packages: write
