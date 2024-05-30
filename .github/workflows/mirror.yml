@@ -60,21 +60,21 @@ jobs:
             repo: docker.io
           - image: bitnami/minio
             repo: docker.io
-          - image: plane/plane
+          - image: makeplane/plane
             repo: docker.io
-          - image: plane/plane-frontend
+          - image: makeplane/plane-frontend
             repo: docker.io
-          - image: plane/plane-backend
+          - image: makeplane/plane-backend
             repo: docker.io
-          - image: plane/plane-worker
+          - image: makeplane/plane-worker
             repo: docker.io
-          - image: plane/plane-admin
+          - image: makeplane/plane-admin
             repo: docker.io
-          - image: plane/plane-proxy
+          - image: makeplane/plane-proxy
             repo: docker.io
-          - image: plane/plane-deploy
+          - image: makeplane/plane-deploy
             repo: docker.io
-          - image: plane/plane-space
+          - image: makeplane/plane-space
             repo: docker.io
             
     permissions:
