@@ -60,6 +60,8 @@ jobs:
             repo: docker.io
           - image: bitnami/minio
             repo: docker.io
+          - image: bitnami/postgresql
+            repo: docker.io
           - image: makeplane/plane
             repo: docker.io
           - image: makeplane/plane-frontend
