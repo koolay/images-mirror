@@ -24,6 +24,8 @@ jobs:
             repo: docker.io
           - image: node
             repo: docker.io
+          - image: mysql
+            repo: docker.io
           - image: python
             repo: docker.io
           - image: rancher/klipper-lb
