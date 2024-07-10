@@ -12,6 +12,12 @@ jobs:
     strategy:
       matrix:
         include:
+          - image: kubeshark/front
+            repo: docker.io
+          - image: kubeshark/hub
+            repo: docker.io  
+          - image: kubeshark/worker
+            repo: docker.io
           - image: alpine
             repo: docker.io
           - image: busybox
