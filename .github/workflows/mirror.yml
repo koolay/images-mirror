@@ -88,6 +88,8 @@ jobs:
             repo: docker.io
           - image: makeplane/plane-space
             repo: docker.io
+          - image: docker/dockerfile
+            repo: docker.io
             
     permissions:
       packages: write
