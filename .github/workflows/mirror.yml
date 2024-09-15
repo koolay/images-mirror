@@ -90,6 +90,19 @@ jobs:
             repo: docker.io
           - image: docker/dockerfile
             repo: docker.io
+          - image: ddosify/alaz
+            repo: docker.io
+          - image: ddosify/selfhosted_alaz_backend
+            repo: docker.io
+          - image: ddosify/selfhosted_backend
+            repo: docker.io
+          - image: ddosify/selfhosted_frontend
+            repo: docker.io
+          - image: ddosify/selfhosted_hammer
+            repo: docker.io
+          - image: ddosify/selfhosted_hammermanager
+            repo: docker.io
+            
             
     permissions:
       packages: write
