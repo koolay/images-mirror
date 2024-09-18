@@ -102,6 +102,8 @@ jobs:
             repo: docker.io
           - image: ddosify/selfhosted_hammermanager
             repo: docker.io
+          - image: vorvan/h2oai/h2ogpt-runtime
+            repo: gcr.io
             
             
     permissions:
