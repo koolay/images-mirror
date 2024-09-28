@@ -105,7 +105,8 @@ jobs:
             repo: docker.io
           - image: vorvan/h2oai/h2ogpt-runtime
             repo: gcr.io
-            
+          - image: lightdash/lightdash
+            repo: docker.io
             
     permissions:
       packages: write
