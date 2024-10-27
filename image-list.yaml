@@ -1,5 +1,4 @@
 ---
 docker.io/gitea/gitea:1.22.3: ghcr.io/koolay/gitea/gitea:1.22.3
-scratch: ghcr.io/koolay/library/scratch
 docker.io/library/alpine:3.18.0: ghcr.io/koolay/library/alpine:3.18.0
 docker.io/library/golang:1.23.1: ghcr.io/koolay/library/golang:1.23.1
