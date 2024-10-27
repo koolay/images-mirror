@@ -5,6 +5,10 @@ on:
   schedule:
     - cron: '0 0 * * *'
 
+permissions:
+  packages: write    # 添加包写入权限
+  contents: read     # 添加内容读取权限
+
 jobs:
   mirror:
     name: Mirror
