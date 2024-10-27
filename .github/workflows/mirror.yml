@@ -1,4 +1,4 @@
-name: Mirror Dockerhub
+name: sync imagess from public to ghcr
 
 on:
   workflow_dispatch:
@@ -19,10 +19,11 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
       - uses: koolay/image-syncer-action@v0.1.0
         with:
+          image_syncer_version: 'v1.5.5'
           source_registry: 'docker.io'
           source_username: ''
           source_password: ''
           dest_registry: 'ghcr.io'
           dest_username: ${{ github.actor }}
           dest_password: ${{ secrets.GITHUB_TOKEN }}
-          image_list_file: '.github/image-list.yaml'
+          image_list_file: './image-list.yaml'
