@@ -10,106 +10,6 @@ jobs:
     name: Mirror
     timeout-minutes: 30
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        include:
-          - image: kubeshark/front
-            repo: docker.io
-          - image: kubeshark/hub
-            repo: docker.io  
-          - image: kubeshark/worker
-            repo: docker.io
-          - image: alpine
-            repo: docker.io
-          - image: busybox
-            repo: docker.io
-          - image: golang
-            repo: docker.io
-          - image: moby/buildkit
-            repo: docker.io
-          - image: nginx
-            repo: docker.io
-          - image: node
-            repo: docker.io
-          - image: mysql
-            repo: docker.io
-          - image: python
-            repo: docker.io
-          - image: rancher/klipper-lb
-            repo: docker.io
-          - image: registry
-            repo: docker.io
-          - image: tonistiigi/binfmt
-            repo: docker.io
-          - image: ubuntu
-            repo: docker.io
-          - image: kindest/node
-            repo: docker.io
-          - image: centrifugo/centrifugo
-            repo: docker.io
-          - image: ingress-nginx/kube-webhook-certgen
-            repo: registry.k8s.io
-          - image: ingress-nginx/controller
-            repo: registry.k8s.io
-          - image: emberstack/kubernetes-reflector
-            repo: docker.io
-          - image: tooljet/tooljet-ce
-            repo: docker.io
-          - image: postgres
-            repo: docker.io
-          - image: postgres
-            repo: docker.io
-          - image: redis
-            repo: docker.io
-          - image: minio/minio
-            repo: docker.io
-          - image: bitnami/redis
-            repo: docker.io
-          - image: bitnami/redis-exporter
-            repo: docker.io
-          - image: bitnami/minio
-            repo: docker.io
-          - image: bitnami/postgresql
-            repo: docker.io
-          - image: bitnami/keycloak
-            repo: docker.io
-          - image: makeplane/plane
-            repo: docker.io
-          - image: makeplane/plane-frontend
-            repo: docker.io
-          - image: makeplane/plane-backend
-            repo: docker.io
-          - image: makeplane/plane-worker
-            repo: docker.io
-          - image: makeplane/plane-admin
-            repo: docker.io
-          - image: makeplane/plane-proxy
-            repo: docker.io
-          - image: makeplane/plane-deploy
-            repo: docker.io
-          - image: makeplane/plane-space
-            repo: docker.io
-          - image: docker/dockerfile
-            repo: docker.io
-          - image: ddosify/alaz
-            repo: docker.io
-          - image: ddosify/selfhosted_alaz_backend
-            repo: docker.io
-          - image: ddosify/selfhosted_backend
-            repo: docker.io
-          - image: ddosify/selfhosted_frontend
-            repo: docker.io
-          - image: ddosify/selfhosted_hammer
-            repo: docker.io
-          - image: ddosify/selfhosted_hammermanager
-            repo: docker.io
-          - image: vorvan/h2oai/h2ogpt-runtime
-            repo: gcr.io
-          - image: lightdash/lightdash
-            repo: docker.io
-            
-    permissions:
-      packages: write
     steps:
       - uses: actions/checkout@v3
       - uses: docker/login-action@v2
@@ -117,12 +17,12 @@ jobs:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
-      - uses: actions/setup-go@v4
-      - uses: imjasonh/setup-crane@v0.3
-      - name: Mirror
-        run: |
-          for tag in $(cat ./images/${{ matrix.image }}); do
-            crane copy \
-              ${{ matrix.repo }}/${{ matrix.image }}:$tag \
-              ghcr.io/${{ github.repository_owner }}/${{ github.event.repository.name }}/${{ matrix.image }}:$tag
-          done
+      - uses: koolay/image-syncer-action@v0.1.0
+        with:
+          source_registry: 'docker.io'
+          source_username: ''
+          source_password: ''
+          dest_registry: 'ghcr.io'
+          dest_username: ${{ github.actor }}
+          dest_password: ${{ secrets.GITHUB_TOKEN }}
+          image_list_file: '.github/image-list.yaml'
