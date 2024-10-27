@@ -3,4 +3,4 @@ docker.io/gitea/gitea:1.22.3: ghcr.io/koolay/gitea/gitea:1.22.3
 docker.io/library/alpine:3.18.0: ghcr.io/koolay/library/alpine:3.18.0
 docker.io/library/golang:1.23.1: ghcr.io/koolay/library/golang:1.23.1
 docker.io/library/ubuntu:22.04: ghcr.io/koolay/library/ubuntu:22.04
-docker.io/gitea/runner-images:ubuntu-20.04-slim-v24.10.01: ghcr.io/koolay/gitea/runner-images:ubuntu-20.04-slim-v24.10.01
+docker.io/gitea/runner-images:ubuntu-22.04-slim: ghcr.io/koolay/gitea/runner-images:ubuntu-22.04-slim
