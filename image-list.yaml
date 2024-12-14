@@ -6,7 +6,7 @@ docker.io/library/ubuntu:22.04: ghcr.io/koolay/library/ubuntu:22.04
 docker.io/gitea/runner-images:ubuntu-22.04-v24.04.07: ghcr.io/koolay/gitea/runner-images:ubuntu-22.04-v24.04.07
 docker.io/gitea/act_runner:0.2.11: ghcr.io/koolay/gitea/act_runner:0.2.11
 docker.io/library/postgres:16.6: ghcr.io/koolay/library/postgres:16.6
-docker.io/library/redis:7.41.1: ghcr.io/koolay/library/redis:7.41.1
+docker.io/library/redis:7.4.1: ghcr.io/koolay/library/redis:7.4.1
 docker.io/penpotapp/backend:2.3.3: ghcr.io/koolay/penpotapp/backend:2.3.3
 docker.io/penpotapp/frontend:2.3.3: ghcr.io/koolay/penpotapp/frontend:2.3.3
 docker.io/penpotapp/exporter:2.3.3: ghcr.io/koolay/penpotapp/exporter:2.3.3
