@@ -21,7 +21,7 @@ jobs:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
-      - uses: koolay/image-syncer-action@v0.1.0
+      - uses: koolay/image-syncer-action@v0.1.1
         with:
           image_syncer_version: 'v1.5.5'
           source_registry: 'docker.io'
@@ -31,3 +31,4 @@ jobs:
           dest_username: ${{ github.actor }}
           dest_password: ${{ secrets.GITHUB_TOKEN }}
           image_list_file: './image-list.yaml'
+          image_arch: 'amd64,arm64'
