@@ -31,4 +31,4 @@ jobs:
           dest_username: ${{ github.actor }}
           dest_password: ${{ secrets.GITHUB_TOKEN }}
           image_list_file: './image-list.yaml'
-          image_arch: 'amd64,arm64'
+          image_arch: 'amd64'
