@@ -14,3 +14,4 @@ docker.io/bitnami/redis:7.2.5-debian-12-r0: ghcr.io/koolay/bitnami/redis:7.2.5-d
 docker.io/bitnami/postgresql:16.3.0-debian-12-r15: ghcr.io/koolay/bitnami/postgresql:16.3.0-debian-12-r15
 docker.io/kindest/node:v1.32.0: ghcr.io/koolay/kindest/node:v1.32.0
 docker.io/library/python:3.11-slim: ghcr.io/koolay/library/python:3.11-slim
+docker.io/nicolaka/netshoot:v0.13: ghcr.io/koolay/nicolaka/netshoot:v0.13
