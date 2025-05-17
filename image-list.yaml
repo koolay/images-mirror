@@ -15,3 +15,5 @@ docker.io/bitnami/postgresql:16.3.0-debian-12-r15: ghcr.io/koolay/bitnami/postgr
 docker.io/kindest/node:v1.32.0: ghcr.io/koolay/kindest/node:v1.32.0
 docker.io/library/python:3.11-slim: ghcr.io/koolay/library/python:3.11-slim
 docker.io/nicolaka/netshoot:v0.13: ghcr.io/koolay/nicolaka/netshoot:v0.13
+docker.io/josepdcs/kubectl-prof:1.5.0-jvm-alpine: ghcr.io/koolay/josepdcs/kubectl-prof:1.5.0-jvm-alpine
+docker.io/josepdcs/kubectl-prof:1.5.0-jvm: ghcr.io/koolay/josepdcs/kubectl-prof:1.5.0-jvm
