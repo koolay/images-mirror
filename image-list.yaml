@@ -17,6 +17,4 @@ docker.io/library/python:3.11-slim: ghcr.io/koolay/library/python:3.11-slim
 docker.io/nicolaka/netshoot:v0.13: ghcr.io/koolay/nicolaka/netshoot:v0.13
 docker.io/josepdcs/kubectl-prof:1.5.0-jvm-alpine: ghcr.io/koolay/josepdcs/kubectl-prof:1.5.0-jvm-alpine
 docker.io/josepdcs/kubectl-prof:1.5.0-jvm: ghcr.io/koolay/josepdcs/kubectl-prof:1.5.0-jvm
-docker.io/otel/opentelemetry-collector-contrib/otel-agent:0.109.0: ghcr.io/koolay/otel/opentelemetry-collector-contrib/otel-agent:0.109.0
-docker.io/otel/opentelemetry-collector-contrib/otel-deployment:0.109.0: ghcr.io/koolay/otel/opentelemetry-collector-contrib/otel-deployment:0.109.0
-
+docker.io/otel/opentelemetry-collector-contrib:0.109.0: ghcr.io/koolay/otel/opentelemetry-collector-contrib:0.109.0
