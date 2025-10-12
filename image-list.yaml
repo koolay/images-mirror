@@ -19,3 +19,4 @@ docker.io/otel/opentelemetry-collector-contrib:0.109.0: ghcr.io/koolay/otel/open
 docker.io/kestra/kestra:v0.23.4: ghcr.io/koolay/kestra/kestra:v0.23.4
 docker.io/vllm/vllm-openai:v0.11.0: ghcr.io/koolay/vllm/vllm-openai:v0.11.0
 docker.io/lmcache/lmstack-router:0.1.8.dev19-g3db93b87f.d20251008: ghcr.io/koolay/lmcache/lmstack-router:0.1.8.dev19-g3db93b87f.d20251008
+public.ecr.aws/q9t5s3a7/vllm-cpu-release-repo:v0.10.2: ghcr.io/koolay/vllm-cpu-release-repo:v0.10.2
