@@ -12,6 +12,7 @@ docker.io/penpotapp/frontend:2.3.3: ghcr.io/koolay/penpotapp/frontend:2.3.3
 docker.io/penpotapp/exporter:2.3.3: ghcr.io/koolay/penpotapp/exporter:2.3.3
 docker.io/kindest/node:v1.32.0: ghcr.io/koolay/kindest/node:v1.32.0
 docker.io/library/python:3.11-slim: ghcr.io/koolay/library/python:3.11-slim
+docker.io/library/python:3.12.12-slim: ghcr.io/koolay/library/python:3.12.12-slim
 docker.io/nicolaka/netshoot:v0.13: ghcr.io/koolay/nicolaka/netshoot:v0.13
 docker.io/josepdcs/kubectl-prof:1.5.0-jvm-alpine: ghcr.io/koolay/josepdcs/kubectl-prof:1.5.0-jvm-alpine
 docker.io/josepdcs/kubectl-prof:1.5.0-jvm: ghcr.io/koolay/josepdcs/kubectl-prof:1.5.0-jvm
