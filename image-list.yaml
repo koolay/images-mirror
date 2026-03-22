@@ -24,6 +24,7 @@ docker.io/lmcache/lmstack-router:0.1.8.dev19-g3db93b87f.d20251008: ghcr.io/koola
 public.ecr.aws/q9t5s3a7/vllm-cpu-release-repo:v0.10.2: ghcr.io/koolay/vllm-cpu-release-repo:v0.10.2
 docker.io/minio/minio:RELEASE.2025-07-23T15-54-02Z: ghcr.io/koolay/minio/minio:RELEASE.2025-07-23T15-54-02Z
 
+docker.redpanda.com/redpandadata/redpanda:v25.3.10: ghcr.io/koolay/redpandadata/redpanda:v25.3.10
 # huly
 docker.io/elasticsearch:7.14.2: ghcr.io/koolay/elasticsearch:7.14.2
 docker.io/hardcoreeng/account:v0.7.382: ghcr.io/koolay/hardcoreeng/account:v0.7.382
