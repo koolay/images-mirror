@@ -26,6 +26,7 @@ docker.io/minio/minio:RELEASE.2025-07-23T15-54-02Z: ghcr.io/koolay/minio/minio:R
 
 docker.redpanda.com/redpandadata/redpanda:v25.3.10: ghcr.io/koolay/redpandadata/redpanda:v25.3.10
 # huly
+docker.io/mongodb:8.2.6: ghcr.io/koolay/mongodb:8.2.6
 docker.io/elasticsearch:7.14.2: ghcr.io/koolay/elasticsearch:7.14.2
 docker.io/hardcoreeng/account:v0.7.382: ghcr.io/koolay/hardcoreeng/account:v0.7.382
 docker.io/hardcoreeng/collaborator:v0.7.382: ghcr.io/koolay/hardcoreeng/collaborator:v0.7.382
