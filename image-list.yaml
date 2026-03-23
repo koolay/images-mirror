@@ -25,15 +25,12 @@ public.ecr.aws/q9t5s3a7/vllm-cpu-release-repo:v0.10.2: ghcr.io/koolay/vllm-cpu-r
 docker.io/minio/minio:RELEASE.2025-07-23T15-54-02Z: ghcr.io/koolay/minio/minio:RELEASE.2025-07-23T15-54-02Z
 
 docker.redpanda.com/redpandadata/redpanda:v25.3.10: ghcr.io/koolay/redpandadata/redpanda:v25.3.10
-# huly
-docker.io/mongo:8.2.6: ghcr.io/koolay/mongo:8.2.6
-docker.io/elasticsearch:7.14.2: ghcr.io/koolay/elasticsearch:7.14.2
-docker.io/hardcoreeng/account:v0.7.382: ghcr.io/koolay/hardcoreeng/account:v0.7.382
-docker.io/hardcoreeng/collaborator:v0.7.382: ghcr.io/koolay/hardcoreeng/collaborator:v0.7.382
-docker.io/hardcoreeng/front:v0.7.382: ghcr.io/koolay/hardcoreeng/front:v0.7.382
-docker.io/hardcoreeng/fulltext:v0.7.382: ghcr.io/koolay/hardcoreeng/fulltext:v0.7.382
-docker.io/hardcoreeng/hulykvs:v0.7.382: ghcr.io/koolay/hardcoreeng/hulykvs:v0.7.382
-docker.io/hardcoreeng/rekoni-service:v0.7.382: ghcr.io/koolay/hardcoreeng/rekoni-service:v0.7.382
-docker.io/hardcoreeng/stats:v0.7.382: ghcr.io/koolay/hardcoreeng/stats:v0.7.382
-docker.io/hardcoreeng/transactor:v0.7.382: ghcr.io/koolay/hardcoreeng/transactor:v0.7.382
-docker.io/hardcoreeng/workspace:v0.7.382: ghcr.io/koolay/hardcoreeng/workspace:v0.7.382
+# plane
+docker.io/valkey/valkey:7.2.11-alpine: ghcr.io/koolay/valkey/valkey:7.2.11-alpine
+docker.io/library/rabbitmq:4.2.5: ghcr.io/koolay/library/rabbitmq:4.2.5
+artifacts.plane.so/makeplane/plane-frontend:v1.2.3: ghcr.io/koolay/makeplane/plane-frontend:v1.2.3
+artifacts.plane.so/makeplane/plane-space:v1.2.3: ghcr.io/koolay/makeplane/plane-space:v1.2.3
+artifacts.plane.so/makeplane/plane-admin:v1.2.3: ghcr.io/koolay/makeplane/plane-admin:v1.2.3
+artifacts.plane.so/makeplane/plane-live:v1.2.3: ghcr.io/koolay/makeplane/plane-live:v1.2.3
+artifacts.plane.so/makeplane/plane-backend:v1.2.3: ghcr.io/koolay/makeplane/plane-backend:v1.2.3
+docker.io/library/rabbitmq:4.2.5-management: ghcr.io/koolay/library/rabbitmq:4.2.5-management
