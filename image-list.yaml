@@ -54,7 +54,7 @@ docker.io/library/rabbitmq:4.2.5-management: ghcr.io/koolay/library/rabbitmq:4.2
 "quay.io/victoriametrics/vminsert:v1.138.0": "ghcr.io/koolay/victoriametrics/vminsert:v1.138.0"
 "quay.io/victoriametrics/vmbackupmanager:v1.138.0": "ghcr.io/koolay/victoriametrics/vmbackupmanager:v1.138.0"
 "quay.io/victoriametrics/vmauth:v1.138.0": "ghcr.io/koolay/victoriametrics/vmauth:v1.138.0"
-# "quay.io/prometheus/alertmanager": "ghcr.io/koolay/prometheus/alertmanager"
+"docker.io/prometheus/alertmanager: :v0.28.1": "ghcr.io/koolay/prometheus/alertmanager:v0.28.1"
 
 
 
