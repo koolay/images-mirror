@@ -45,7 +45,6 @@ docker.io/library/rabbitmq:4.2.5-management: ghcr.io/koolay/library/rabbitmq:4.2
 "docker.io/library/busybox:1.37.0": "ghcr.io/koolay/library/busybox:1.37.0"
 
 "quay.io/victoriametrics/operator:config-reloader-v0.53.0": "ghcr.io/koolay/victoriametrics/operator:config-reloader-v0.53.0"
-"quay.io/victoriametrics/victoria-logs:v1.138.0": "ghcr.io/koolay/victoriametrics/victoria-logs:v1.138.0"
 "quay.io/victoriametrics/vmalert:v1.138.0": "ghcr.io/koolay/victoriametrics/vmalert:v1.138.0"
 "quay.io/victoriametrics/vmagent:v1.138.0": "ghcr.io/koolay/victoriametrics/vmagent:v1.138.0"
 "quay.io/victoriametrics/victoria-metrics:v1.138.0": "ghcr.io/koolay/victoriametrics/victoria-metrics:v1.138.0"
