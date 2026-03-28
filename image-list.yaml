@@ -50,7 +50,6 @@ docker.io/library/rabbitmq:4.2.5-management: ghcr.io/koolay/library/rabbitmq:4.2
 "quay.io/victoriametrics/vmagent:v1.138.0": "ghcr.io/koolay/victoriametrics/vmagent:v1.138.0"
 "quay.io/victoriametrics/victoria-metrics:v1.138.0": "ghcr.io/koolay/victoriametrics/victoria-metrics:v1.138.0"
 "quay.io/victoriametrics/vmselect:v1.138.0": "ghcr.io/koolay/victoriametrics/vmselect:v1.138.0"
-"quay.io/victoriametrics/vmstorage:v1.138.0": "ghcr.io/koolay/victoriametrics/vmstorage:v1.138.0"
 "quay.io/victoriametrics/vminsert:v1.138.0": "ghcr.io/koolay/victoriametrics/vminsert:v1.138.0"
 "quay.io/victoriametrics/vmbackupmanager:v1.138.0": "ghcr.io/koolay/victoriametrics/vmbackupmanager:v1.138.0"
 "quay.io/victoriametrics/vmauth:v1.138.0": "ghcr.io/koolay/victoriametrics/vmauth:v1.138.0"
