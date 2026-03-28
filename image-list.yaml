@@ -41,6 +41,7 @@ docker.io/library/rabbitmq:4.2.5-management: ghcr.io/koolay/library/rabbitmq:4.2
 "registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.18.0": "ghcr.io/koolay/kube-state-metrics/kube-state-metrics:v2.18.0"
 "quay.io/prometheus/node-exporter:v1.10.2": "ghcr.io/koolay/prometheus/node-exporter:v1.10.2"
 "quay.io/victoriametrics/operator:v0.68.3": "ghcr.io/koolay/victoriametrics/operator:v0.68.3"
+"quay.io/prometheus/node-exporter:v1.6.1": "ghcr.io/koolay/prometheus/node-exporter:v1.6.1"
 
 "quay.io/victoriametrics/operator:config-reloader-v0.53.0": "ghcr.io/koolay/victoriametrics/operator:config-reloader-v0.53.0"
 "quay.io/victoriametrics/victoria-logs:v1.138.0": "ghcr.io/koolay/victoriametrics/victoria-logs:v1.138.0"
