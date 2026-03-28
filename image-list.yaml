@@ -34,3 +34,26 @@ artifacts.plane.so/makeplane/plane-admin:v1.2.3: ghcr.io/koolay/makeplane/plane-
 artifacts.plane.so/makeplane/plane-live:v1.2.3: ghcr.io/koolay/makeplane/plane-live:v1.2.3
 artifacts.plane.so/makeplane/plane-backend:v1.2.3: ghcr.io/koolay/makeplane/plane-backend:v1.2.3
 docker.io/library/rabbitmq:4.2.5-management: ghcr.io/koolay/library/rabbitmq:4.2.5-management
+
+# vmsk
+"docker.io/grafana/grafana:12.4.1": "ghcr.io/koolay/grafana/grafana:12.4.1"
+"quay.io/kiwigrid/k8s-sidecar:2.5.0": "ghcr.io/koolay/kiwigrid/k8s-sidecar:2.5.0"
+"registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.18.0": "ghcr.io/koolay/kube-state-metrics/kube-state-metrics:v2.18.0"
+"quay.io/prometheus/node-exporter:v1.10.2": "ghcr.io/koolay/prometheus/node-exporter:v1.10.2"
+"quay.io/victoriametrics/operator:v0.68.3": "ghcr.io/koolay/victoriametrics/operator:v0.68.3"
+
+"quay.io/victoriametrics/operator:config-reloader-v0.53.0": "ghcr.io/koolay/victoriametrics/operator:config-reloader-v0.53.0"
+"quay.io/victoriametrics/victoria-logs:v1.122.17": "ghcr.io/koolay/victoriametrics/victoria-logs:v1.122.17"
+"quay.io/victoriametrics/vmalert:v1.122.17": "ghcr.io/koolay/victoriametrics/vmalert:v1.122.17"
+"quay.io/victoriametrics/vmagent:v1.122.17": "ghcr.io/koolay/victoriametrics/vmagent:v1.122.17"
+"quay.io/victoriametrics/victoria-metrics:v1.122.17": "ghcr.io/koolay/victoriametrics/victoria-metrics:v1.122.17"
+"quay.io/victoriametrics/vmselect:v1.122.17": "ghcr.io/koolay/victoriametrics/vmselect:v1.122.17"
+"quay.io/victoriametrics/vmstorage:v1.122.17": "ghcr.io/koolay/victoriametrics/vmstorage:v1.122.17"
+"quay.io/victoriametrics/vminsert:v1.122.17": "ghcr.io/koolay/victoriametrics/vminsert:v1.122.17"
+"quay.io/victoriametrics/vmbackupmanager:v1.122.17": "ghcr.io/koolay/victoriametrics/vmbackupmanager:v1.122.17"
+"quay.io/victoriametrics/vmauth:v1.122.17": "ghcr.io/koolay/victoriametrics/vmauth:v1.122.17"
+# "quay.io/prometheus/alertmanager": "ghcr.io/koolay/prometheus/alertmanager"
+
+
+
+
